@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <unistd.h>
+
 /**
  * main - first function
  * Description: print a string without puts, printf
