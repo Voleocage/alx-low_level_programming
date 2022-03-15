@@ -6,8 +6,9 @@
 /* betty style doc for function main goes there */
 
 /**
- *
- *
+ * main - Entry point
+ * Description - program outputs a random number and it is evaluated whether the number is positive, negative or zero.
+ * Return - returns a success (0)
  */
 
 int main(void)
