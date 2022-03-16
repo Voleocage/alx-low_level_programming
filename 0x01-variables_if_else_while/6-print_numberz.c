@@ -3,12 +3,13 @@
 #include <unistd.h>
 
 /**
- * Main - First function
+ * main - First function
  * Description: Print all single digit numbers from base 10
  * Return: return a success (0)
  */
 
 int main(void)
+
 {
 	int i;
 
