@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-
 /**
  * Main - Entry point
- * Description - program outputs a random number
- * Return - returns a success (0)
+ * Description: program outputs a random number
+ * Return: returns a success (0)
  */
 
 int main(void)
