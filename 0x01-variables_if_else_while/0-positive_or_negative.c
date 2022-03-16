@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
- * Description - program outputs a random number and it is evaluated whether the number is positive, negative or zero.
+ * Main - Entry point
+ * Description - program outputs a random number
  * Return - returns a success (0)
  */
 
@@ -23,13 +23,13 @@ int main(void)
 	
 	else if (n == 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%d is zero", n);
 
 	}
 	
 	else
 	{
-		printf("%d is negative\n", n);
+		printf("%d is negative", n);
 
 	}
 	printf("\n");
