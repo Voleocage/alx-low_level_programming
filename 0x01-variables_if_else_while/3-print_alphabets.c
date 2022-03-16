@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 /**
- *
- *
+ * main - First function
+ * Description: Print lowercase & uppercase alphabets 
+ * Return: returns a success 0
  */
 
 int main(void)
