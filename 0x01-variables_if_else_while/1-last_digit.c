@@ -1,11 +1,11 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
  * main - Entry point
  * Description - print the last digit of the number stored in the variable
- * return - returns a success, 0
+ * Return - returns a success 0
  */
 
 int main(void)
@@ -15,7 +15,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
 	v = n % 10;
 
 	if (v > 5)
@@ -28,8 +27,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of %d is %d ahd is less than 6 and not 0\n", n, v);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, v);
 	}
-
 	return (0);
 }
