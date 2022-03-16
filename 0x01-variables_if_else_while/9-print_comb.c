@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Main - First function
+ * main - First function
  * Description: Print single digit numbers
  * Return: returns a success (0)
  */
@@ -11,13 +11,13 @@ int main(void)
 {
 	int i;
 
-	for (i='1';i<='9';i++)
+	for (i = '0';i <= '9'; i++)
 	{
 		putchar(i);
-		
+
 		if (i != '9')
 		{
-			putchar(44);
+			putchar(' 44');
 		}
 	}
 	putchar('\n');
