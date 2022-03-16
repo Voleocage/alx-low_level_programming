@@ -21,19 +21,20 @@ int main(void)
 				{
 					if (((k + j) > (c + i) && k >= c) || c < k)
 					{
-						putchar(c);
-						putchar(i);
-						putchar(' ');
-						putchar(k);
-						putchar(j);
+					putchar(c);
+					putchar(i);
+					putchar(' ');
+					putchar(k);
+					putchar(j);
 
-						if ((c + i + k + j == 227) & (c == 57))
-							break;
+					if ((c + i + k + j == 227) & (c == 57))
+					break;
 
-							else{
-								putchar(',');
-								putchar(' ');
-							}
+					else
+					{
+					putchar(',');
+					putchar(' ');
+					}
 					}
 				}
 			}
