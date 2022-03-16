@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - 
- *
+ * main - First function
+ * Description: print alphabets except q & e
+ * Return: returns a success 0
  */
 
 int main(void)
