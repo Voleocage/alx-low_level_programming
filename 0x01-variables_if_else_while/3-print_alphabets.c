@@ -3,7 +3,7 @@
 
 /**
  * main - First function
- * Description: Print lowercase & uppercase alphabets 
+ * Description: Print lowercase & uppercase alphabets
  * Return: returns a success 0
  */
 
